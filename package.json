@@ -1,0 +1,36 @@
+{
+  "name": "yournewmachine",
+  "private": true,
+  "description": "Static generator for a blog",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop --port 3000",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "gatsby": "^2.18.3",
+    "gatsby-plugin-styled-components": "^3.1.13",
+    "gatsby-plugin-typescript": "^2.1.19",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "@types/react": "^16.9.13",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.4.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timrcoulson/yournewmachine"
+  }
+}
