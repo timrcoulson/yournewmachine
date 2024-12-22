@@ -1,14 +1,29 @@
-body {
-    font-family: Arial, sans-serif;
+html, body {
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: auto; /* Allow height to adapt dynamically */
+    overflow: hidden; /* Prevent extra scrolling beyond the image height */
+}
+
+body {
+    background-image: url('background.jpg'); /* The image URL */
+    background-size: 100% auto; /* Ensure the image covers the full width */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-position: top center; /* Center the image horizontally */
+    height: calc(100vw * (1646 / 1234)); /* Maintain the aspect ratio */
+}
+
+h1 {
+    font-family: "Teko", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    color: black;
     text-align: center;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 header {
-    background: #0073e6;
     color: #fff;
     padding: 20px 0;
 }
